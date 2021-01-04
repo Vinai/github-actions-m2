@@ -46,8 +46,8 @@ jobs:
 ```
 
 Make sure to modify the following values:
-- `module_name` - for instance, `Foo` if your Magento 2 module is called `Foo_Bar`
-- `composer_name` - for instance, `Bar` if your Magento 2 module is called `Foo_Bar`
+- `module_name` - for instance, `Foo_Bar` if your Magento 2 module is called `Foo_Bar`
+- `composer_name` - for instance, `foo-vendor/module-foo-bar`. Use the package name from your module's `composer.json`
 
 You could also choose to switch PHP version, by changing the tag of the Docker image:
 
